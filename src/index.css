@@ -1,0 +1,66 @@
+/* *
+/* Common CSS For All Routes
+/*
+*/
+
+
+
+/* Color Pallette */
+.bg-cona-primary {background-color: #35404f!important;}
+.bg-twitch-primary {background-color: #6441A4!important;}
+.bg-youtube-primary {background-color: #ff0000!important;}
+
+
+/* Utils */
+.spacer5 {height: 5px!important;}
+.spacer10 {height: 10px!important;}
+.spacer15 {height: 15px!important;}
+.spacer30 {height: 30px!important;}
+.spacer45 {height: 45px!important;}
+.t--1 {top: -1px;}
+.break-word {word-wrap: break-word;}
+
+
+/* Input with icon in front */
+.parent-input-with-icon {
+	position: relative;
+}
+.parent-input-with-icon .icon-before-input {
+  position: absolute;
+  margin: auto 1.2rem;
+  top: 0; bottom: 0;
+  z-index: 10;
+}
+.parent-input-with-icon .input-after-icon {
+  padding-left: 3rem;
+  font-size: 1.171875rem;
+  line-height: 1.5;
+}
+
+
+/* Custom Design */
+@media (max-width: 991.98px){
+	.bd-navbar .navbar-nav-scroll {
+		max-width: 100%;
+		height: 2.5rem;
+		margin-top: .25rem;
+		overflow: hidden;
+		font-size: .875rem;
+	}
+	.bd-navbar .navbar-nav-scroll .navbar-nav {
+		padding-bottom: 2rem;
+		overflow-x: auto;
+		white-space: nowrap;
+		-webkit-overflow-scrolling: touch;
+	}
+}
+
+#my-table {
+	table-layout: fixed;
+	width:100%;
+	text-align: center;
+}
+#my-table td {
+	overflow:scroll;
+}
+

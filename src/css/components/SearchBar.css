@@ -1,0 +1,10 @@
+.SearchBar .search-box {
+	display: block;
+	padding: .75rem 1rem .75rem 3rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	background-clip: padding-box;
+	border-width: 0;
+	border-radius: 0;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

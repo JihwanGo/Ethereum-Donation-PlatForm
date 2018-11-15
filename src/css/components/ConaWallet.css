@@ -1,0 +1,31 @@
+.ConaWallet {
+	width: 20.5rem;
+	height: 12.75rem;
+	border-radius: 12px;
+	/* padding-top: 6220930233 */
+}
+
+
+.ConaWallet .img-qrcode {
+	width: 3.2rem;
+	height: 3.2rem;
+	margin-left: 0.9rem;
+}
+
+
+.ConaWallet .wallet-info {
+	position: relative;
+	width: 100%;
+	height: 3.2rem;
+	display: flex;
+	align-items: center; /* align vertical */
+}
+.ConaWallet .wallet-info .wallet-name {
+	position: absolute;
+	right: 0px;
+	margin: 0;
+}
+
+.ConaWallet .wallet-balance {
+	margin-bottom: 0;
+}

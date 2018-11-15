@@ -1,0 +1,36 @@
+.footer {
+	position: relative;
+	color: #878c94;
+	z-index: 1020;
+}
+.footer .footer-content {
+	padding: 50px 0 20px 0;
+}
+.footer .title{
+	text-align: left;
+	color:#fff;
+	font-size:25px;
+}
+.footer .social-icon{
+	padding:0px;
+	margin:0px;
+}
+.footer .social-icon a{
+	display:inline-block;
+	color:#fff;
+	font-size:25px;
+	padding:5px;
+}
+
+
+.footer .footer-bottom {
+	padding: 15px 0;
+}
+.footer .footer-links {
+	overflow: scroll;
+	white-space: nowrap;
+}
+.devsite-utility-footer-link::before {
+    content: '|';
+    margin: 0 8px;
+}
